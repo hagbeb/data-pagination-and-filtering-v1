@@ -7,6 +7,7 @@ FSJS Project 2 - Data Pagination and Filtering
 const itemsPerPage = 9;
 
 // create a parent container for a search box to add to the page, and add it's innerHTML
+// make it a form so we can use the submit event
 const searchParent = document.createElement('form');
 searchParent.innerHTML = `
    <label for="search" class="student-search">
